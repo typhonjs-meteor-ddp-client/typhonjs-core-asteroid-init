@@ -7,7 +7,9 @@
 import Asteroid         from 'asteroid-browser';
 import asteroidconfig   from 'asteroidconfig';
 
-console.log("AndroidInitialize - Asteroid: " +Asteroid);
-console.log("AndroidInitialize - asteroidconfig: " +JSON.stringify(asteroidconfig));
+if (typeof asteroidconfig !== object || typeof asteroidconfig.host !== string)
+{
+   throw new Error("AsteroidInitialize - `asteroidconfig` is not an object hash or doesn't contain a `host` entry.");
+}
 
 export default new Asteroid(asteroidconfig.host, asteroidconfig.ssl || false);
