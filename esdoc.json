@@ -1,0 +1,9 @@
+{
+   "title": "typhonjs-core-asteroid-init",
+   "source": "src",
+   "destination": "docs",
+   "manual":
+   {
+      "changelog": ["./CHANGELOG.md"]
+   }
+}
