@@ -4,7 +4,7 @@
 
 'use strict';
 
-import Asteroid         from 'asteroid-browser';
+import Asteroid         from 'asteroid-type';
 import asteroidconfig   from 'asteroidconfig';
 
 if (typeof asteroidconfig !== 'object' || typeof asteroidconfig.host !== 'string')
