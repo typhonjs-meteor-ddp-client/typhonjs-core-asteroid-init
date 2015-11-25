@@ -1,12 +1,12 @@
 {
-  "name": "typhon-core-asteroid-init",
+  "name": "typhonjs-core-asteroid-init",
   "version": "0.1.0",
   "homepage": "https://github.com/typhonjs/typhon-core-asteroid-init",
   "description": "Exports an instance of Asteroid with parameters loaded from a mapped config file (`asteroidconfig`).",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/typhonjs/typhon-core-asteroid-init/typhon-core-asteroid-init.git"
+    "url": "https://github.com/typhonjs/typhonjs-core-asteroid-init/typhonjs-core-asteroid-init.git"
   },
   "jspm": {
     "main": "src/lifecycle/AsteroidInitialize.js",
