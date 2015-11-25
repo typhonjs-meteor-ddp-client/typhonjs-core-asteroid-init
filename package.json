@@ -10,15 +10,8 @@
   },
   "jspm": {
     "main": "src/lifecycle/AsteroidInitialize.js",
-    "files": [
-      "src/",
-      "CHANGELOG.md",
-      "esdoc.json",
-      "LICENSE",
-      "README.md"
-    ],
     "dependencies": {
-      "asteroid-type": "github:typhonjs/typhonjs-core-asteroid-browser@master"
+      "asteroid-type": "github:typhonjs/typhonjs-core-asteroid-browser-cjs@master"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.25",
