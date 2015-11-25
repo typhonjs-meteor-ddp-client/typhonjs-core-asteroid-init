@@ -11,7 +11,7 @@
   "jspm": {
     "main": "src/lifecycle/AsteroidInitialize.js",
     "dependencies": {
-      "asteroid-browser": "github:typhonjs/typhonjs-core-asteroid-browser@master"
+      "asteroid-type": "github:typhonjs/typhonjs-core-asteroid-browser@master"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.25",
