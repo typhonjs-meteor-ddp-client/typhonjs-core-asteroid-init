@@ -1,28 +1,25 @@
 {
   "name": "typhonjs-core-asteroid-init",
   "version": "0.1.0",
-  "homepage": "https://github.com/typhonjs/typhon-core-asteroid-init",
+  "homepage": "https://github.com/typhonjs-meteor/typhon-core-asteroid-init",
   "description": "Exports an instance of Asteroid with parameters loaded from a mapped config file (`asteroidconfig`).",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/typhonjs/typhonjs-core-asteroid-init/typhonjs-core-asteroid-init.git"
+    "url": "https://github.com/typhonjs-meteor/typhonjs-core-asteroid-init/typhonjs-core-asteroid-init.git"
   },
   "jspm": {
     "main": "src/lifecycle/AsteroidInitialize.js",
-    "dependencies": {
-      "asteroid-type": "github:typhonjs/typhonjs-core-asteroid-browser-cjs@master"
-    },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.25",
-      "babel-runtime": "npm:babel-runtime@^5.8.25",
+      "babel": "npm:babel-core@^5.8.34",
+      "babel-runtime": "npm:babel-runtime@^5.8.34",
       "core-js": "npm:core-js@^1.2.1"
     }
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "jspm": "^0.16.14",
-    "typhonjs-config-eslint": "^0.2.0",
+    "jspm": "^0.16.19",
+    "typhonjs-config-eslint": "^0.2.1",
     "typhonjs-core-gulptasks": "^0.3.0"
   }
 }
